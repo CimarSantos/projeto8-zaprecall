@@ -8,7 +8,7 @@ import Footer from "./Footer";
 export default function TelaFlashcards() {
   return (
     <>
-      <div className="flashcardSrc">
+      <div className="flashcardSrc flex">
         <div className="flshtop flex">
           <img src={LogoSmll} alt="logo"></img>
           <h2 className="righteous">ZapRecall</h2>
