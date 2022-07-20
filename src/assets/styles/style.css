@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&family=Righteous&display=swap');
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recursive {
+    font-family: 'Recursive',
+        sans-serif;
+}
+
+.righteous {
+    font-family: 'Righteous',
+        cursive;
+}
+
+.init,
+.flashcardSrc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB6B6B;
+    border: 1px solid #DBDBDB;
+    gap: 20px;
+
+    position: relative;
+}
+
+.init img {
+    width: 136px;
+}
+
+.init h1,
+.flshtop h2 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.init button {
+    width: 246px;
+    height: 54px;
+    background-color: #fff;
+    color: #D70900;
+    border: 1px solid #D70900;
+    border-radius: 5px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.flshtop {
+    position: absolute;
+
+    top: 40px;
+    gap: 30px;
+}
+
+.flshtop img {
+    width: 52px;
+}
+
+
+.flashcard {
+    width: 300px;
+    height: 65px;
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-family: 'Recursive',
+        sans-serif;
+    font-weight: 700;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+}
+
+.deck {
+    margin: 120px;
+}
