@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Footer() {
+export default function Footer({ qtdPerguntas }) {
   return (
     <>
       <div className="footer flex">
-        <h3 className="recursive">0/4 CONCLUÍDOS</h3>
+        <h3 className="recursive">0/{qtdPerguntas} CONCLUÍDOS</h3>
       </div>
     </>
   );
