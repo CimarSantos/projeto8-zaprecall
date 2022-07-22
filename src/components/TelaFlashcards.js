@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-import LogoSmll from "../assets/img/logo-pequeno.png";
-
+import Topo from "./Topo";
 import FlashCard from "./FlashCard";
 import Footer from "./Footer";
 
@@ -46,10 +45,7 @@ export default function TelaFlashcards() {
   return (
     <>
       <div className="flashcardSrc flex">
-        <div className="flshtop flex">
-          <img src={LogoSmll} alt="logo"></img>
-          <h2 className="righteous">ZapRecall</h2>
-        </div>
+        <Topo />
         <div className="deck">
           {questions.map((question, index) => (
             <FlashCard
