@@ -50,7 +50,7 @@
 }
 
 .flshtop {
-    margin-top: 50px;
+    margin: 40px 0;
     top: 40px;
     gap: 30px;
 }
@@ -60,7 +60,10 @@
 }
 
 .deck {
-    padding: 30px 0;
+    flex-direction: column;
+
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -76,11 +79,11 @@
     cursor: pointer;
     }
 
-    .questionCard {
+    .questionCard,
+    .answerCard {
         width: 299px;
         height: 131px;
         padding: 10px;
-        margin: 20px 0;
         background-color: #fff;
         color: #333;
         font-size: 18px;
@@ -96,6 +99,43 @@
         bottom: 10px;
         right: 15px;
         cursor: pointer;
+}
+
+.answers {
+    position: absolute;
+    bottom: 5px;
+    left: 12px;
+    gap: 10px;
+}
+
+.answers div {
+    width: 85px;
+    height: 37px;
+    border-radius: 5px;
+}
+
+.answerEsqueci p,
+.answerQuase p,
+.answerZap p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.answerEsqueci {
+    background-color: #FF3030;
+    cursor: pointer;
+}
+
+.answerQuase {
+    background-color: #FF922E;
+    cursor: pointer;
+}
+
+.answerZap {
+    background-color: #2FBE34;
+    cursor: pointer;
 }
 
 .footer {
